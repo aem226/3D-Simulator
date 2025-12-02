@@ -1,0 +1,16 @@
+path: /data/capstone-spring-2024/capstone2024/yolov11/TruncData  # dataset root dir
+train: Train/images
+val:  val/images
+test:  Test/images
+
+# Classes (9 KITTI classes)
+names:
+  0: car
+  1: van
+  2: truck
+  3: pedestrian
+  4: person_sitting
+  5: cyclist
+  6: tram
+  7: misc
+  8: dontcare
